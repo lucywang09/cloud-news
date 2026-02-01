@@ -1,0 +1,185 @@
+{
+  "lastUpdated": "2026-02-01T05:08:31.618Z",
+  "items": [
+    {
+      "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
+      "url": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
+      "source": "Kubernetes",
+      "date": "Fri, 30 Jan 2026 08:00:00 -0800"
+    },
+    {
+      "title": "Ingress NGINX: Statement from the Kubernetes Steering and Security Response Committees",
+      "url": "https://kubernetes.io/blog/2026/01/29/ingress-nginx-statement/",
+      "source": "Kubernetes",
+      "date": "Thu, 29 Jan 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Experimenting with Gateway API using kind",
+      "url": "https://kubernetes.io/blog/2026/01/28/experimenting-gateway-api-with-kind/",
+      "source": "Kubernetes",
+      "date": "Wed, 28 Jan 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Cluster API v1.12: Introducing In-place Updates and Chained Upgrades",
+      "url": "https://kubernetes.io/blog/2026/01/27/cluster-api-v1-12-release/",
+      "source": "Kubernetes",
+      "date": "Tue, 27 Jan 2026 08:00:00 -0800"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon EC2 G7e instances, Amazon Corretto updates, and more (January 26, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-g7e-instances-with-nvidia-blackwell-gpus-january-26-2026/",
+      "source": "AWS",
+      "date": "Mon, 26 Jan 2026 16:25:46 +0000"
+    },
+    {
+      "title": "Beyond boundaries: The future of Azure Storage in 2026",
+      "url": "https://azure.microsoft.com/en-us/blog/beyond-boundaries-the-future-of-azure-storage-in-2026/",
+      "source": "Azure",
+      "date": "Thu, 22 Jan 2026 17:00:00 +0000"
+    },
+    {
+      "title": "Headlamp in 2025: Project Highlights",
+      "url": "https://kubernetes.io/blog/2026/01/22/headlamp-in-2025-project-highlights/",
+      "source": "Kubernetes",
+      "date": "Thu, 22 Jan 2026 10:00:00 +0800"
+    },
+    {
+      "title": "Announcing the Checkpoint/Restore Working Group",
+      "url": "https://kubernetes.io/blog/2026/01/21/introducing-checkpoint-restore-wg/",
+      "source": "Kubernetes",
+      "date": "Wed, 21 Jan 2026 10:00:00 -0800"
+    },
+    {
+      "title": "Announcing Amazon EC2 G7e instances accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7e-instances-accelerated-by-nvidia-rtx-pro-6000-blackwell-server-edition-gpus/",
+      "source": "AWS",
+      "date": "Tue, 20 Jan 2026 21:22:56 +0000"
+    },
+    {
+      "title": "AWS Weekly Roundup: Kiro CLI latest features, AWS European Sovereign Cloud, EC2 X8i instances, and more (January 19, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-kiro-cli-latest-features-aws-european-sovereign-cloud-ec2-x8i-instances-and-more-january-19-2026/",
+      "source": "AWS",
+      "date": "Tue, 20 Jan 2026 00:24:38 +0000"
+    },
+    {
+      "title": "Uniform API server access using clientcmd",
+      "url": "https://kubernetes.io/blog/2026/01/19/clientcmd-apiserver-access/",
+      "source": "Kubernetes",
+      "date": "Mon, 19 Jan 2026 10:00:00 -0800"
+    },
+    {
+      "title": "Amazon EC2 X8i instances powered by custom Intel Xeon 6 processors are generally available for memory-intensive workloads",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-x8i-instances-powered-by-custom-intel-xeon-6-processors-are-generally-available-for-memory-intensive-workloads/",
+      "source": "AWS",
+      "date": "Thu, 15 Jan 2026 22:52:17 +0000"
+    },
+    {
+      "title": "Chart your AI and agent strategy with Microsoft Marketplace",
+      "url": "https://azure.microsoft.com/en-us/blog/design-your-ai-and-agent-strategy-with-microsoft-marketplace/",
+      "source": "Azure",
+      "date": "Thu, 15 Jan 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Opening the AWS European Sovereign Cloud",
+      "url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud/",
+      "source": "AWS",
+      "date": "Thu, 15 Jan 2026 07:12:54 +0000"
+    },
+    {
+      "title": "Microsoft named a Leader in IDC MarketScape for Unified AI Governance Platforms",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/",
+      "source": "Azure",
+      "date": "Wed, 14 Jan 2026 17:00:00 +0000"
+    },
+    {
+      "title": "AWS Weekly Roundup: AWS Lambda for .NET 10, AWS Client VPN quickstart, Best of AWS re:Invent, and more (January 12, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-lambda-for-net-10-aws-client-vpn-quickstart-best-of-aws-reinvent-and-more-january-12-2026/",
+      "source": "AWS",
+      "date": "Mon, 12 Jan 2026 17:39:47 +0000"
+    },
+    {
+      "title": "Bridging the gap between AI and medicine: Claude in Microsoft Foundry advances capabilities for healthcare and life sciences customers",
+      "url": "https://www.microsoft.com/en-us/industry/blog/healthcare/2026/01/11/bridging-the-gap-between-ai-and-medicine-claude-in-microsoft-foundry-advances-capabilities-for-healthcare-and-life-sciences-customers/",
+      "source": "Azure",
+      "date": "Sun, 11 Jan 2026 22:00:00 +0000"
+    },
+    {
+      "title": "Kubernetes v1.35: Restricting executables invoked by kubeconfigs via exec plugin allowList added to kuberc",
+      "url": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
+      "source": "Kubernetes",
+      "date": "Fri, 09 Jan 2026 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
+      "url": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
+      "source": "Kubernetes",
+      "date": "Thu, 08 Jan 2026 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers",
+      "url": "https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/",
+      "source": "Kubernetes",
+      "date": "Wed, 07 Jan 2026 10:30:00 -0800"
+    },
+    {
+      "title": "Microsoft’s strategic AI datacenter planning enables seamless, large-scale NVIDIA Rubin deployments",
+      "url": "https://azure.microsoft.com/en-us/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/",
+      "source": "Azure",
+      "date": "Mon, 05 Jan 2026 23:00:00 +0000"
+    },
+    {
+      "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
+      "url": "https://kubernetes.io/blog/2026/01/05/kubernetes-v1-35-numeric-toleration-operators/",
+      "source": "Kubernetes",
+      "date": "Mon, 05 Jan 2026 10:30:00 -0800"
+    },
+    {
+      "title": "Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon EC2, Amazon ECS Managed Instances and more (January 5, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/happy-new-year-aws-weekly-roundup-10000-aideas-competition-amazon-ec2-amazon-ecs-managed-instances-and-more-january-5-2026/",
+      "source": "AWS",
+      "date": "Mon, 05 Jan 2026 17:10:37 +0000"
+    },
+    {
+      "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
+      "url": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
+      "source": "Kubernetes",
+      "date": "Fri, 02 Jan 2026 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs",
+      "url": "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
+      "source": "Kubernetes",
+      "date": "Wed, 31 Dec 2025 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
+      "url": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
+      "source": "Kubernetes",
+      "date": "Tue, 30 Dec 2025 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
+      "url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
+      "source": "Kubernetes",
+      "date": "Mon, 29 Dec 2025 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA",
+      "url": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
+      "source": "Kubernetes",
+      "date": "Tue, 23 Dec 2025 10:30:00 -0800"
+    },
+    {
+      "title": "Kubernetes v1.35: Kubelet Configuration Drop-in Directory Graduates to GA",
+      "url": "https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/",
+      "source": "Kubernetes",
+      "date": "Mon, 22 Dec 2025 10:30:00 -0800"
+    },
+    {
+      "title": "Avoiding Zombie Cluster Members When Upgrading to etcd v3.6",
+      "url": "https://kubernetes.io/blog/2025/12/21/preventing-etcd-zombies/",
+      "source": "Kubernetes",
+      "date": "Sun, 21 Dec 2025 00:00:00 +0000"
+    }
+  ]
+}

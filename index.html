@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cloud News</h1>
+            <p id="last-updated">Loading...</p>
+        </header>
+        
+        <main id="news-list">
+            <p class="loading">Loading news...</p>
+        </main>
+    </div>
+
+    <script>
+        fetch('news.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('last-updated').textContent = 
+                    `Last updated: ${new Date(data.lastUpdated).toLocaleString()}`;
+                
+                const newsList = document.getElementById('news-list');
+                
+                if (data.items.length === 0) {
+                    newsList.innerHTML = '<p class="no-news">No news available</p>';
+                    return;
+                }
+                
+                newsList.innerHTML = data.items.map(item => `
+                    <article class="news-item">
+                        <h2><a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.title}</a></h2>
+                        <div class="meta">
+                            <span class="source">${item.source}</span>
+                            <span class="date">${new Date(item.date).toLocaleDateString()}</span>
+                        </div>
+                    </article>
+                `).join('');
+            })
+            .catch(err => {
+                document.getElementById('news-list').innerHTML = 
+                    `<p class="error">Failed to load news: ${err.message}</p>`;
+            });
+    </script>
+</body>
+</html>

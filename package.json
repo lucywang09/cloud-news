@@ -1,0 +1,14 @@
+{
+  "name": "cloud-news",
+  "version": "1.0.0",
+  "description": "Minimal GitHub Pages site showing latest cloud news from RSS feeds",
+  "scripts": {
+    "update-news": "node scripts/update-news.js"
+  },
+  "keywords": ["cloud", "news", "rss"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
