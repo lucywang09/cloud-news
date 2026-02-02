@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-01T05:08:31.618Z",
+  "lastUpdated": "2026-02-02T12:00:37.656Z",
   "items": [
     {
       "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
@@ -30,6 +30,12 @@
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-g7e-instances-with-nvidia-blackwell-gpus-january-26-2026/",
       "source": "AWS",
       "date": "Mon, 26 Jan 2026 16:25:46 +0000"
+    },
+    {
+      "title": "Maia 200: The AI accelerator built for inference",
+      "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
+      "source": "Azure",
+      "date": "Mon, 26 Jan 2026 16:12:24 +0000"
     },
     {
       "title": "Beyond boundaries: The future of Azure Storage in 2026",
@@ -174,12 +180,6 @@
       "url": "https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/",
       "source": "Kubernetes",
       "date": "Mon, 22 Dec 2025 10:30:00 -0800"
-    },
-    {
-      "title": "Avoiding Zombie Cluster Members When Upgrading to etcd v3.6",
-      "url": "https://kubernetes.io/blog/2025/12/21/preventing-etcd-zombies/",
-      "source": "Kubernetes",
-      "date": "Sun, 21 Dec 2025 00:00:00 +0000"
     }
   ]
 }
