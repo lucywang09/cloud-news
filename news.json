@@ -1,6 +1,54 @@
 {
-  "lastUpdated": "2026-02-02T12:00:37.656Z",
+  "lastUpdated": "2026-02-09T22:21:24.785Z",
   "items": [
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.6 in Amazon Bedrock, AWS Builder ID Sign in with Apple, and more (February 9, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-6-in-amazon-bedrock-aws-builder-id-sign-in-with-apple-and-more-february-9-2026/",
+      "source": "AWS",
+      "date": "Mon, 09 Feb 2026 20:42:04 +0000"
+    },
+    {
+      "title": "Claude Opus 4.6: Anthropic’s powerful model for coding, agents, and enterprise workflows is now available in Microsoft Foundry",
+      "url": "https://azure.microsoft.com/en-us/blog/claude-opus-4-6-anthropics-powerful-model-for-coding-agents-and-enterprise-workflows-is-now-available-in-microsoft-foundry-on-azure/",
+      "source": "Azure",
+      "date": "Thu, 05 Feb 2026 17:46:10 +0000"
+    },
+    {
+      "title": "Amazon EC2 C8id, M8id, and R8id instances with up to 22.8 TB local NVMe storage are generally available",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-c8id-m8id-and-r8id-instances-with-up-to-22-8-tb-local-nvme-storage-are-generally-available/",
+      "source": "AWS",
+      "date": "Wed, 04 Feb 2026 22:31:56 +0000"
+    },
+    {
+      "title": "Enhanced storage resiliency with Azure NetApp Files Elastic zone-redundant service ",
+      "url": "https://azure.microsoft.com/en-us/blog/enhanced-storage-resiliency-with-azure-netapp-files-elastic-zone-redundant-service/",
+      "source": "Azure",
+      "date": "Wed, 04 Feb 2026 16:00:00 +0000"
+    },
+    {
+      "title": "AWS IAM Identity Center now supports multi-Region replication for AWS account access and application use",
+      "url": "https://aws.amazon.com/blogs/aws/aws-iam-identity-center-now-supports-multi-region-replication-for-aws-account-access-and-application-use/",
+      "source": "AWS",
+      "date": "Tue, 03 Feb 2026 19:13:34 +0000"
+    },
+    {
+      "title": "Introducing Node Readiness Controller",
+      "url": "https://kubernetes.io/blog/2026/02/03/introducing-node-readiness-controller/",
+      "source": "Kubernetes",
+      "date": "Tue, 03 Feb 2026 10:00:00 +0800"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon Bedrock agent workflows, Amazon SageMaker private connectivity, and more (February 2, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agent-workflows-amazon-sagemaker-private-connectivity-and-more-february-2-2026/",
+      "source": "AWS",
+      "date": "Mon, 02 Feb 2026 17:19:48 +0000"
+    },
+    {
+      "title": "PostgreSQL on Azure supercharged for AI",
+      "url": "https://azure.microsoft.com/en-us/blog/postgresql-on-azure-supercharged-for-ai/",
+      "source": "Azure",
+      "date": "Mon, 02 Feb 2026 15:00:00 +0000"
+    },
     {
       "title": "New Conversion from cgroup v1 CPU Shares to v2 CPU Weight",
       "url": "https://kubernetes.io/blog/2026/01/30/new-cgroup-v1-to-v2-cpu-conversion-formula/",
@@ -132,54 +180,6 @@
       "url": "https://azure.microsoft.com/en-us/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/",
       "source": "Azure",
       "date": "Mon, 05 Jan 2026 23:00:00 +0000"
-    },
-    {
-      "title": "Kubernetes v1.35: Extended Toleration Operators to Support Numeric Comparisons (Alpha)",
-      "url": "https://kubernetes.io/blog/2026/01/05/kubernetes-v1-35-numeric-toleration-operators/",
-      "source": "Kubernetes",
-      "date": "Mon, 05 Jan 2026 10:30:00 -0800"
-    },
-    {
-      "title": "Happy New Year! AWS Weekly Roundup: 10,000 AIdeas Competition, Amazon EC2, Amazon ECS Managed Instances and more (January 5, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/happy-new-year-aws-weekly-roundup-10000-aideas-competition-amazon-ec2-amazon-ecs-managed-instances-and-more-january-5-2026/",
-      "source": "AWS",
-      "date": "Mon, 05 Jan 2026 17:10:37 +0000"
-    },
-    {
-      "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
-      "url": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
-      "source": "Kubernetes",
-      "date": "Fri, 02 Jan 2026 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes 1.35: Enhanced Debugging with Versioned z-pages APIs",
-      "url": "https://kubernetes.io/blog/2025/12/31/kubernetes-v1-35-structured-zpages/",
-      "source": "Kubernetes",
-      "date": "Wed, 31 Dec 2025 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: Watch Based Route Reconciliation in the Cloud Controller Manager",
-      "url": "https://kubernetes.io/blog/2025/12/30/kubernetes-v1-35-watch-based-route-reconciliation-in-ccm/",
-      "source": "Kubernetes",
-      "date": "Tue, 30 Dec 2025 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
-      "url": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
-      "source": "Kubernetes",
-      "date": "Mon, 29 Dec 2025 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: Fine-grained Supplemental Groups Control Graduates to GA",
-      "url": "https://kubernetes.io/blog/2025/12/23/kubernetes-v1-35-fine-grained-supplementalgroups-control-ga/",
-      "source": "Kubernetes",
-      "date": "Tue, 23 Dec 2025 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: Kubelet Configuration Drop-in Directory Graduates to GA",
-      "url": "https://kubernetes.io/blog/2025/12/22/kubernetes-v1-35-kubelet-config-drop-in-directory-ga/",
-      "source": "Kubernetes",
-      "date": "Mon, 22 Dec 2025 10:30:00 -0800"
     }
   ]
 }
