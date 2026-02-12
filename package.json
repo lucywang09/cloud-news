@@ -1,0 +1,10 @@
+{
+  "name": "cloud-news-updater",
+  "version": "1.0.0",
+  "description": "Automated cloud news updater",
+  "scripts": {
+    "update-news": "node update-news.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
