@@ -1,11 +1,29 @@
 {
-  "lastUpdated": "2026-02-10T00:13:03.129Z",
+  "lastUpdated": "2026-02-12T23:18:01.550Z",
   "items": [
+    {
+      "title": "Spotlight on SIG Architecture: API Governance",
+      "url": "https://kubernetes.io/blog/2026/02/12/sig-architecture-api-spotlight/",
+      "source": "Kubernetes",
+      "date": "Thu, 12 Feb 2026 00:00:00 +0000"
+    },
+    {
+      "title": "Can high-temperature superconductors transform the power infrastructure of datacenters?",
+      "url": "https://azure.microsoft.com/en-us/blog/can-high-temperature-superconductors-transform-the-power-infrastructure-of-datacenters/",
+      "source": "Azure",
+      "date": "Tue, 10 Feb 2026 16:00:00 +0000"
+    },
     {
       "title": "AWS Weekly Roundup: Claude Opus 4.6 in Amazon Bedrock, AWS Builder ID Sign in with Apple, and more (February 9, 2026)",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-6-in-amazon-bedrock-aws-builder-id-sign-in-with-apple-and-more-february-9-2026/",
       "source": "AWS",
       "date": "Mon, 09 Feb 2026 20:42:04 +0000"
+    },
+    {
+      "title": "Five Reasons to attend SQLCon",
+      "url": "https://blog.fabric.microsoft.com/en-us/blog/32624",
+      "source": "Azure",
+      "date": "Mon, 09 Feb 2026 15:12:12 +0000"
     },
     {
       "title": "Claude Opus 4.6: Anthropic’s powerful model for coding, agents, and enterprise workflows is now available in Microsoft Foundry",
@@ -162,24 +180,6 @@
       "url": "https://kubernetes.io/blog/2026/01/09/kubernetes-v1-35-kuberc-credential-plugin-allowlist/",
       "source": "Kubernetes",
       "date": "Fri, 09 Jan 2026 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: Mutable PersistentVolume Node Affinity (alpha)",
-      "url": "https://kubernetes.io/blog/2026/01/08/kubernetes-v1-35-mutable-pv-nodeaffinity/",
-      "source": "Kubernetes",
-      "date": "Thu, 08 Jan 2026 10:30:00 -0800"
-    },
-    {
-      "title": "Kubernetes v1.35: A Better Way to Pass Service Account Tokens to CSI Drivers",
-      "url": "https://kubernetes.io/blog/2026/01/07/kubernetes-v1-35-csi-sa-tokens-secrets-field-beta/",
-      "source": "Kubernetes",
-      "date": "Wed, 07 Jan 2026 10:30:00 -0800"
-    },
-    {
-      "title": "Microsoft’s strategic AI datacenter planning enables seamless, large-scale NVIDIA Rubin deployments",
-      "url": "https://azure.microsoft.com/en-us/blog/microsofts-strategic-ai-datacenter-planning-enables-seamless-large-scale-nvidia-rubin-deployments/",
-      "source": "Azure",
-      "date": "Mon, 05 Jan 2026 23:00:00 +0000"
     }
   ]
 }
