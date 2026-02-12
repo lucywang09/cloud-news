@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "AWS announces new EC2 instance types",
+    "source": "AWS Blog",
+    "timestamp": "2026-02-12T23:38:48.632Z",
+    "category": "Cloud Computing"
+  },
+  {
+    "id": 2,
+    "title": "Azure AI Services updates",
+    "source": "Microsoft Azure",
+    "timestamp": "2026-02-12T23:38:48.632Z",
+    "category": "AI/ML"
+  },
+  {
+    "id": 3,
+    "title": "Google Cloud Platform pricing updates",
+    "source": "GCP Blog",
+    "timestamp": "2026-02-12T23:38:48.632Z",
+    "category": "Cloud Computing"
+  }
+]
