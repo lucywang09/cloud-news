@@ -1,0 +1,19 @@
+{
+  "name": "aws-cloud-news",
+  "version": "1.0.0",
+  "description": "AWS Cloud News Dashboard - Static site aggregating AWS news from official RSS feeds",
+  "scripts": {
+    "update-news": "node scripts/fetch-news.js"
+  },
+  "keywords": [
+    "aws",
+    "cloud",
+    "news",
+    "rss"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

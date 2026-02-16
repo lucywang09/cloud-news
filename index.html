@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real-time AWS Cloud news aggregated from official sources">
+    <title>AWS Cloud News | Real-time Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <svg class="aws-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L12 3L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 3V15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 15C4 15 6 17 12 17C18 17 20 15 20 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M4 21H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <div class="header-text">
+                        <h1 class="title">AWS Cloud News</h1>
+                        <p class="subtitle">Real-time Updates from Official Sources</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filter Tabs -->
+        <nav class="filter-tabs">
+            <button class="tab active" data-filter="all">
+                All News <span class="count" id="count-all">0</span>
+            </button>
+            <button class="tab" data-filter="whats-new">
+                What's New <span class="count" id="count-whats-new">0</span>
+            </button>
+            <button class="tab" data-filter="news-blog">
+                News Blog <span class="count" id="count-news-blog">0</span>
+            </button>
+            <button class="tab" data-filter="architecture">
+                Architecture <span class="count" id="count-architecture">0</span>
+            </button>
+            <button class="tab" data-filter="security">
+                Security <span class="count" id="count-security">0</span>
+            </button>
+        </nav>
+
+        <!-- Loading State -->
+        <div class="loading-state" id="loading">
+            <div class="skeleton-grid">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </div>
+
+        <!-- News Grid -->
+        <main class="news-grid" id="newsGrid"></main>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <svg class="empty-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 8V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="12" cy="16" r="0.5" fill="currentColor"/>
+            </svg>
+            <p>No articles found for this filter</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
