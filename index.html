@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloud News</title>
+  <meta name="description" content="AWS Cloud News Dashboard - Real-time updates from official AWS sources">
+  <meta name="keywords" content="AWS, cloud, news, updates, architecture, security">
+  <meta name="author" content="AWS Cloud News">
+  <title>AWS Cloud News Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, Helvetica, sans-serif; }
-
     /* Breaking News Ticker */
     .ticker {
       position: fixed;
@@ -21,6 +23,7 @@
       height: 40px;
       overflow: hidden;
       z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
     .ticker__label {
@@ -29,9 +32,9 @@
       color: #b71c1c;
       font-weight: 700;
       text-transform: uppercase;
-      padding: 0 14px;
+      padding: 0 16px;
       line-height: 40px;
-      font-size: 14px;
+      font-size: 13px;
       letter-spacing: 1px;
     }
 
@@ -47,8 +50,8 @@
       white-space: nowrap;
       padding-left: 100%;
       line-height: 40px;
-      font-size: 15px;
-      animation: scroll-left 16s linear infinite;
+      font-size: 14px;
+      animation: scroll-left 30s linear infinite;
     }
 
     @keyframes scroll-left {
@@ -56,21 +59,20 @@
       100% { transform: translateX(-100%); }
     }
 
-    main {
-      margin-top: 60px;
-      padding: 24px;
-      max-width: 800px;
-      margin: 0 auto;
+    body {
+      padding-top: 40px;
     }
   </style>
-  <meta name="description" content=" AWS Cloud News Dashboard - Real-time updates from official AWS sources">
-  <meta name="keywords" content="AWS, cloud, news, updates, architecture, security">
-  <meta name="author" content="AWS Cloud News">
-  <title>AWS Cloud News Dashboard</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
 </head>
 <body>
+  <!-- Breaking News Ticker -->
+  <div class="ticker" role="marquee" aria-live="off">
+    <span class="ticker__label">Breaking News</span>
+    <div class="ticker__track">
+      <span class="ticker__content" id="ticker-text">Loading latest AWS news…</span>
+    </div>
+  </div>
+
   <header class="header">
     <div class="header-content">
       <div class="logo">
@@ -100,38 +102,6 @@
       </button>
     </div>
 
-  <!-- Breaking News Ticker -->
-  <div class="ticker" role="marquee" aria-live="off">
-    <span class="ticker__label">Breaking News</span>
-    <div class="ticker__track">
-      <span class="ticker__content" id="ticker-text">Loading…</span>
-    </div>
-  </div>
-
-  <main>
-    <h1>Welcome to Cloud News</h1>
-    <p>Page content goes here.</p>
-  </main>
-
-  <script>
-    (async function loadTicker() {
-      try {
-        const res  = await fetch('news.json');
-        const news = await res.json();
-
-        // Sort by date descending and take the most recent headline
-        news.sort((a, b) => new Date(b.date) - new Date(a.date));
-        const latest = news[0];
-
-        document.getElementById('ticker-text').textContent = latest.headline;
-      } catch (err) {
-        console.error('Failed to load news:', err);
-        document.getElementById('ticker-text').textContent =
-          'Unable to load breaking news.';
-      }
-    })();
-  </script>
-
     <div class="news-grid" id="newsGrid">
       <div class="loading">Loading AWS news...</div>
     </div>
@@ -148,19 +118,27 @@
     let allNewsItems = [];
     let currentFilter = 'all';
 
-    // Fetch and render news
+    // Fetch and render news + ticker
     async function loadNews() {
       try {
         const response = await fetch('./news.json');
         const data = await response.json();
         
         allNewsItems = data.items;
+        
+        // Update ticker with latest news
+        if (allNewsItems.length > 0) {
+          const tickerItems = allNewsItems.slice(0, 5).map(item => item.title).join(' ••• ');
+          document.getElementById('ticker-text').textContent = tickerItems;
+        }
+        
         updateLastUpdated(data.lastUpdated);
         updateCounts();
         renderNews();
       } catch (error) {
         console.error('Error loading news:', error);
         document.getElementById('newsGrid').innerHTML = '<div class="empty-state">Failed to load news. Please try again later.</div>';
+        document.getElementById('ticker-text').textContent = 'Unable to load breaking news.';
       }
     }
 
