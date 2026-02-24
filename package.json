@@ -1,0 +1,15 @@
+{
+  "name": "aws-cloud-news",
+  "version": "1.0.0",
+  "description": "AWS Cloud News Dashboard - RSS aggregator for GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "update-news": "node scripts/fetch-news.js"
+  },
+  "keywords": ["aws", "news", "rss", "dashboard"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
