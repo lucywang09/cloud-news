@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking News</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body { font-family: Arial, Helvetica, sans-serif; }
+
+    /* ── Ticker bar ── */
+    .ticker {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #b71c1c;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      height: 40px;
+      overflow: hidden;
+      z-index: 1000;
+    }
+
+    .ticker__label {
+      flex-shrink: 0;
+      background: #fff;
+      color: #b71c1c;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0 14px;
+      line-height: 40px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .ticker__track {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+      height: 100%;
+    }
+
+    .ticker__content {
+      display: inline-block;
+      white-space: nowrap;
+      padding-left: 100%;
+      line-height: 40px;
+      font-size: 15px;
+      animation: scroll-left 16s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    /* ── Page content ── */
+    main {
+      margin-top: 60px;
+      padding: 24px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Breaking‑news ticker -->
+  <div class="ticker" role="marquee" aria-live="off">
+    <span class="ticker__label">Breaking News</span>
+    <div class="ticker__track">
+      <span class="ticker__content" id="ticker-text">Loading…</span>
+    </div>
+  </div>
+
+  <main>
+    <h1>Welcome</h1>
+    <p>Page content goes here.</p>
+  </main>
+
+  <script>
+    (async function loadTicker() {
+      try {
+        const res  = await fetch('news.json');
+        const news = await res.json();
+
+        // Sort by date descending and take the most recent headline
+        news.sort((a, b) => new Date(b.date) - new Date(a.date));
+        const latest = news[0];
+
+        document.getElementById('ticker-text').textContent = latest.headline;
+      } catch (err) {
+        console.error('Failed to load news:', err);
+        document.getElementById('ticker-text').textContent =
+          'Unable to load breaking news.';
+      }
+    })();
+  </script>
+
+</body>
+</html>
